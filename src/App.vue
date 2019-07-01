@@ -1,14 +1,17 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <!-- 添加VueMintUi组件 -->
+    <VueMintUi></VueMintUi>
     <router-view/>
-    <router-view class="TaskTotal"/>
   </div>
 </template>
 
 <script>
+import VueMintUi from './components/Vue-MintUi'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {VueMintUi}
 }
 </script>
 

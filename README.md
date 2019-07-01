@@ -73,3 +73,8 @@ prod.env.js:项目生产环境配置
 项目核心目录,我们写的代码都是在这里
 
 ```
+
+**Vue整合Mint UI**
+```
+Mint UI 官方使用中文文档:https://mint-ui.github.io/docs/#/zh-cn2
+```
