@@ -74,6 +74,9 @@ prod.env.js:项目生产环境配置
 
 ```
 
+**Vue钩子函数生命周期**
+![Image](https://github.com/ReturnTears/allst-vue/blob/master/vimg/Vue钩子函数生命周期图.png)
+
 **Vue整合Mint UI**
 ```
 Mint UI 官方使用中文文档:https://mint-ui.github.io/docs/#/zh-cn2
