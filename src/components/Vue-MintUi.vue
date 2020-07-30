@@ -1,7 +1,8 @@
 <template>
   <div class="VueMintUI">
       <p>{{ msg }}</p>
-      <mt-button @click.native="handleClick">按钮</mt-button>
+      <!-- <mt-button @click.native="handleClick">按钮</mt-button> -->
+      <button @click.native="clickBtn">按钮</button>
   </div>
 </template>
 
@@ -17,6 +18,9 @@ export default {
   mothods: {
     handleClick: function () {
       this.$toast('Hello world!')
+    },
+    clickBtn: function () {
+      console.log('hei')
     }
   }
 }
