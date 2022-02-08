@@ -121,6 +121,9 @@ JavaScript主线程从“任务队列”中读取一部任务的回调函数，�
 ## 宏任务和微任务
 JavaScript把异步任务又做了进一步的划分，异步任务又分为两类：宏任务（macrotask）、微任务（microtask）
 
+## 创建服务
+运行命令 nodemon app.js
+
 ## 错误解决方案
 1、SyntaxError: Cannot use import statement outside a module
 npm init -y
