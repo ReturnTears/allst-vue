@@ -114,3 +114,6 @@ npm install axios --save
 安装vue-router
 npm install vue-router
 ```
+
+## 错误解决方案
+1、SyntaxError: Cannot use import statement outside a module
