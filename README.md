@@ -115,5 +115,11 @@ npm install axios --save
 npm install vue-router
 ```
 
+## EventLoop
+JavaScript主线程从“任务队列”中读取一部任务的回调函数，放到执行栈中依次执行。这个过程是循环不断的，所以整个的这种运行机制又称为EvevtLoop （事件循环）
+
 ## 错误解决方案
 1、SyntaxError: Cannot use import statement outside a module
+npm init -y
+初始化package.json文件，添加"type": "module"
+
