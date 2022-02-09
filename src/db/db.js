@@ -18,6 +18,6 @@ const pool = mysql.createPool({
 //     database : 'mysql'      //你要连接的数据库的名字
 //   });
 
-export default pool.promise()
+export default pool
 
 // export default connection
