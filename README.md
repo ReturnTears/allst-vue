@@ -1,4 +1,4 @@
-# allst-vue2
+# allst-vue
 
 vue项目初始化命令：
 vue init webpack project-name
@@ -114,6 +114,24 @@ npm install axios --save
 安装vue-router
 npm install vue-router
 ```
+
+## Vue3.x
+```
+
+```
+
+## Mock
+```
+Mock.js
+官方地址：http://mockjs.com/
+示例地址：http://mockjs.com/examples.html
+
+# 安装
+npm install mockjs
+
+
+```
+
 
 ## EventLoop
 JavaScript主线程从“任务队列”中读取一部任务的回调函数，放到执行栈中依次执行。这个过程是循环不断的，所以整个的这种运行机制又称为EvevtLoop （事件循环）
